@@ -1,0 +1,6 @@
+*.o
+glpk-4.8/
+*swp
+.DS_Store
+temp.txt
+model*

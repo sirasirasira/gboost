@@ -1,0 +1,526 @@
+itrator : 1
+0.16274694 : 0 * (1) 1 (0f1) 1 (0f2) 1 (2f1)
+Stopping criterion: 0.16274694<=?0.00000000 + 0.01000000
+      0:   objval =   0.000000000e+00   infeas =   1.000000000e+00 (0)
+    200:   objval =   0.000000000e+00   infeas =   8.824082785e-01 (0)
+    400:   objval =   0.000000000e+00   infeas =   7.648165569e-01 (0)
+    600:   objval =   0.000000000e+00   infeas =   6.472248354e-01 (0)
+    800:   objval =   0.000000000e+00   infeas =   5.296331138e-01 (0)
+   1000:   objval =   0.000000000e+00   infeas =   4.120413923e-01 (0)
+   1200:   objval =   0.000000000e+00   infeas =   2.944496707e-01 (0)
+   1400:   objval =   0.000000000e+00   infeas =   1.768579492e-01 (0)
+   1600:   objval =   0.000000000e+00   infeas =   5.926622766e-02 (0)
+   1702:   objval =   0.000000000e+00   infeas =   0.000000000e+00 (0)
+*  1702:   objval =   0.000000000e+00   infeas =   0.000000000e+00 (0)
+*  1800:   objval =  -5.714957667e-02   infeas =   0.000000000e+00 (0)
+*  2000:   objval =  -1.747412982e-01   infeas =   0.000000000e+00 (0)
+*  2200:   objval =  -2.923330198e-01   infeas =   0.000000000e+00 (0)
+*  2400:   objval =  -4.099247413e-01   infeas =   0.000000000e+00 (0)
+*  2600:   objval =  -5.275164628e-01   infeas =   0.000000000e+00 (0)
+*  2800:   objval =  -6.451081844e-01   infeas =   0.000000000e+00 (0)
+*  3000:   objval =  -7.626999059e-01   infeas =   0.000000000e+00 (0)
+*  3200:   objval =  -8.802916275e-01   infeas =   0.000000000e+00 (0)
+*  3400:   objval =  -9.978833490e-01   infeas =   0.000000000e+00 (0)
+*  3403:   objval =  -1.000000000e+00   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 1
+Margin: -1.00000000
+Margin Error: 0.00000000
+itrator : 2
+-0.73682973 : 0 * (1) 1 (0f2)
+Stopping criterion: 0.73682973<=?-1.00000000 + 0.01000000
+   3403:   objval =  -1.000000000e+00   infeas =   1.000000000e+00 (0)
+   3600:   objval =  -8.838193791e-01   infeas =   8.667569397e-01 (0)
+   3800:   objval =  -7.662276576e-01   infeas =   7.313473257e-01 (0)
+   4000:   objval =  -6.486359360e-01   infeas =   5.959377116e-01 (0)
+   4200:   objval =  -5.310442145e-01   infeas =   4.605280975e-01 (0)
+   4400:   objval =  -4.134524929e-01   infeas =   3.251184834e-01 (0)
+   4600:   objval =  -2.958607714e-01   infeas =   1.897088693e-01 (0)
+   4800:   objval =  -1.782690499e-01   infeas =   5.429925525e-02 (0)
+   4881:   objval =  -1.311147695e-01   infeas =   0.000000000e+00 (0)
+*  4881:   objval =  -1.311147695e-01   infeas =   0.000000000e+00 (0)
+*  4937:   objval =  -1.475776105e-01   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 2
+Margin: 0.00000000
+Margin Error: 0.55503293
+itrator : 3
+0.20037629 : 0 * (2) 1 (0f12)
+Stopping criterion: 0.20037629<=?-0.14757761 + 0.01000000
+   4937:   objval =  -1.475776105e-01   infeas =   1.000000000e+00 (0)
+   5000:   objval =  -1.286453434e-01   infeas =   8.374450828e-01 (0)
+   5200:   objval =  -1.264111007e-01   infeas =   4.934099358e-01 (0)
+   5400:   objval =  -1.264111007e-01   infeas =   1.554579250e-01 (0)
+   5492:   objval =  -1.264111007e-01   infeas =   0.000000000e+00 (0)
+*  5492:   objval =  -1.264111007e-01   infeas =   0.000000000e+00 (0)
+*  5600:   objval =  -1.469896519e-01   infeas =   2.710505431e-17 (0)
+*  5603:   objval =  -1.475776105e-01   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 3
+Margin: 0.00000000
+Margin Error: 0.49035748
+itrator : 4
+-0.20637347 : 0 * (1) 2 (0f2) 1 (0f1) 1 (2f6) 1 (0f3)
+Stopping criterion: 0.20637347<=?-0.14757761 + 0.01000000
+   5603:   objval =  -1.475776105e-01   infeas =   1.000000000e+00 (0)
+   5800:   objval =  -7.361241769e-02   infeas =   4.624584718e-01 (0)
+   5940:   objval =   8.231420508e-03   infeas =   8.454269953e-17 (0)
+*  5940:   objval =   8.231420508e-03   infeas =   2.992397996e-17 (0)
+*  6000:   objval =  -3.057384760e-03   infeas =   0.000000000e+00 (0)
+*  6018:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 4
+Margin: 0.00000000
+Margin Error: 0.49059266
+itrator : 5
+-0.05232832 : 0 * (3) 2 (0f3)
+Stopping criterion: 0.05232832<=?-0.00529163 + 0.01000000
+   6018:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   6093:   objval =   9.474532993e-03   infeas =   0.000000000e+00 (0)
+*  6093:   objval =   9.474532993e-03   infeas =   0.000000000e+00 (0)
+*  6193:   objval =  -5.291627469e-03   infeas =   1.084202172e-19 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 5
+Margin: 0.00000000
+Margin Error: 0.48283161
+itrator : 6
+0.13699436 : 0 * (1) 1 (0f1) 2 (1f3)
+Stopping criterion: 0.13699436<=?-0.00529163 + 0.01000000
+   6193:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   6200:   objval =  -4.468485419e-03   infeas =   9.652892562e-01 (0)
+   6392:   objval =   2.038256507e-02   infeas =   1.219180863e-17 (0)
+*  6392:   objval =   2.038256507e-02   infeas =   1.734723476e-18 (0)
+*  6400:   objval =   1.940263405e-02   infeas =   0.000000000e+00 (0)
+*  6581:   objval =  -5.291627469e-03   infeas =   6.722053469e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 6
+Margin: 0.00000000
+Margin Error: 0.48047977
+itrator : 7
+-0.08172625 : 0 * (1) 2 (0f1) 1 (1f6)
+Stopping criterion: 0.08172625<=?-0.00529163 + 0.01000000
+   6581:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   6600:   objval =  -2.822201317e-03   infeas =   8.594594595e-01 (0)
+   6703:   objval =   1.117121355e-02   infeas =   0.000000000e+00 (0)
+*  6703:   objval =   1.117121355e-02   infeas =   0.000000000e+00 (0)
+*  6800:   objval =  -3.762935089e-04   infeas =   1.387778781e-17 (0)
+*  6840:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 7
+Margin: 0.00000000
+Margin Error: 0.46378175
+itrator : 8
+-0.04874177 : 0 * (1) 3 (0f3)
+Stopping criterion: 0.04874177<=?-0.00529163 + 0.01000000
+   6840:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   6916:   objval =   5.487613672e-03   infeas =   0.000000000e+00 (0)
+*  6916:   objval =   5.487613672e-03   infeas =   0.000000000e+00 (0)
+*  7000:   objval =  -4.115710254e-03   infeas =   2.089799687e-17 (0)
+*  7014:   objval =  -5.291627469e-03   infeas =   2.352718714e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 8
+Margin: -0.00000000
+Margin Error: 0.47718721
+itrator : 9
+-0.03351364 : 0 * (2) 2 (0f6)
+Stopping criterion: 0.03351364<=?-0.00529163 + 0.01000000
+   7014:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7074:   objval =  -3.397094178e-04   infeas =   0.000000000e+00 (0)
+*  7074:   objval =  -3.397094178e-04   infeas =   0.000000000e+00 (0)
+*  7129:   objval =  -5.291627469e-03   infeas =   1.615461237e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 9
+Margin: 0.00000000
+Margin Error: 0.47624647
+itrator : 10
+0.05232832 : 0 * (1) 2 (0f1)
+Stopping criterion: 0.05232832<=?-0.00529163 + 0.01000000
+   7129:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7200:   objval =   1.915065179e-03   infeas =   1.935860058e-01 (0)
+   7215:   objval =   4.111355005e-03   infeas =   0.000000000e+00 (0)
+*  7215:   objval =   4.111355005e-03   infeas =   0.000000000e+00 (0)
+*  7323:   objval =  -5.291627469e-03   infeas =   9.757819552e-19 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 10
+Margin: 0.00000000
+Margin Error: 0.47389464
+itrator : 11
+-0.04638993 : 0 * (1) 1 (0f3) 1 (0f6)
+Stopping criterion: 0.04638993<=?-0.00529163 + 0.01000000
+   7323:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7400:   objval =   2.116650988e-04   infeas =   1.092150170e-02 (0)
+   7401:   objval =   3.156409368e-04   infeas =   0.000000000e+00 (0)
+*  7401:   objval =   3.156409368e-04   infeas =   0.000000000e+00 (0)
+*  7474:   objval =  -5.291627469e-03   infeas =   2.341876693e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 11
+Margin: -0.00000000
+Margin Error: 0.46331138
+itrator : 12
+0.03939323 : 0 * (1) 2 (0f6)
+Stopping criterion: 0.03939323<=?-0.00529163 + 0.01000000
+   7474:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7553:   objval =   5.879586078e-05   infeas =   0.000000000e+00 (0)
+*  7553:   objval =   5.879586078e-05   infeas =   0.000000000e+00 (0)
+*  7600:   objval =  -4.745824385e-03   infeas =   0.000000000e+00 (0)
+*  7605:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 12
+Margin: -0.00000000
+Margin Error: 0.50094073
+itrator : 13
+0.02013585 : 0 * (2) 1 (0f6)
+Stopping criterion: 0.02013585<=?-0.00529163 + 0.01000000
+   7605:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7657:   objval =  -1.103711772e-03   infeas =   0.000000000e+00 (0)
+*  7657:   objval =  -1.103711772e-03   infeas =   0.000000000e+00 (0)
+*  7701:   objval =  -5.291627469e-03   infeas =   3.752694770e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 13
+Margin: 0.00000000
+Margin Error: 0.49835372
+itrator : 14
+-0.02203669 : 0 * (1) 1 (0f4)
+Stopping criterion: 0.02203669<=?-0.00529163 + 0.01000000
+   7701:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7744:   objval =  -2.777404471e-03   infeas =   0.000000000e+00 (0)
+*  7744:   objval =  -2.777404471e-03   infeas =   0.000000000e+00 (0)
+*  7781:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 14
+Margin: 0.00000000
+Margin Error: 0.48894638
+itrator : 15
+-0.02119591 : 0 * (1) 2 (0f1) 1 (1f3)
+Stopping criterion: 0.02119591<=?-0.00529163 + 0.01000000
+   7781:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7800:   objval =  -4.350893697e-03   infeas =   6.326304107e-01 (0)
+   7831:   objval =  -2.659382010e-03   infeas =   2.046627142e-17 (0)
+*  7831:   objval =  -2.659382010e-03   infeas =   5.421010862e-19 (0)
+*  7874:   objval =  -5.291627469e-03   infeas =   2.168404345e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 15
+Margin: 0.00000000
+Margin Error: 0.49082785
+itrator : 16
+0.02492944 : 0 * (1) 1 (0f6)
+Stopping criterion: 0.02492944<=?-0.00529163 + 0.01000000
+   7874:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   7931:   objval =  -1.842418218e-03   infeas =   0.000000000e+00 (0)
+*  7931:   objval =  -1.842418218e-03   infeas =   0.000000000e+00 (0)
+*  7987:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 16
+Margin: 0.00000000
+Margin Error: 0.55103481
+itrator : 17
+-0.05644403 : 0 * (1) 2 (0f2) 1 (0f1) 1 (2f3)
+Stopping criterion: 0.05644403<=?-0.00529163 + 0.01000000
+   7987:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   8000:   objval =  -5.024373557e-03   infeas =   8.715151515e-01 (0)
+   8088:   objval =  -1.257875082e-03   infeas =   0.000000000e+00 (0)
+*  8088:   objval =  -1.257875082e-03   infeas =   0.000000000e+00 (0)
+*  8164:   objval =  -5.291627469e-03   infeas =   2.247579635e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 17
+Margin: 0.00000000
+Margin Error: 0.49412041
+itrator : 18
+-0.07275568 : 0 * (1) 2 (0f2) 1 (0f3)
+Stopping criterion: 0.07275568<=?-0.00529163 + 0.01000000
+   8164:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   8200:   objval =  -4.369860104e-03   infeas =   7.527205736e-01 (0)
+   8306:   objval =  -2.259262225e-03   infeas =   4.167480860e-18 (0)
+*  8306:   objval =  -2.259262225e-03   infeas =   3.252606517e-19 (0)
+*  8360:   objval =  -5.291627469e-03   infeas =   1.301042607e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 18
+Margin: -0.00000000
+Margin Error: 0.46942615
+itrator : 19
+0.06625118 : 0 * (1) 1 (0f3) 2 (1f1)
+Stopping criterion: 0.06625118<=?-0.00529163 + 0.01000000
+   8360:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   8400:   objval =  -3.823908575e-03   infeas =   6.882655173e-01 (0)
+   8483:   objval =  -9.310764812e-04   infeas =   3.030918894e-18 (0)
+*  8483:   objval =  -9.310764812e-04   infeas =   2.168404345e-19 (0)
+*  8540:   objval =  -5.291627469e-03   infeas =   2.496989201e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 19
+Margin: 0.00000000
+Margin Error: 0.46636877
+itrator : 20
+-0.01117121 : 0 * (2) 2 (0f7)
+Stopping criterion: 0.01117121<=?-0.00529163 + 0.01000000
+   8540:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   8575:   objval =  -4.172998529e-03   infeas =   1.201979094e-17 (0)
+*  8575:   objval =  -4.172998529e-03   infeas =   1.978799073e-19 (0)
+*  8600:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 20
+Margin: -0.00000000
+Margin Error: 0.49341486
+itrator : 21
+0.04051623 : 0 * (1) 2 (0f1) 1 (1f2)
+Stopping criterion: 0.04051623<=?-0.00529163 + 0.01000000
+   8600:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   8678:   objval =  -1.912460712e-03   infeas =   3.313586801e-17 (0)
+*  8678:   objval =  -1.912460712e-03   infeas =   1.517883041e-18 (0)
+*  8730:   objval =  -5.291627469e-03   infeas =   1.626303259e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 21
+Margin: -0.00000000
+Margin Error: 0.42380056
+itrator : 22
+-0.05076796 : 0 * (1) 2 (0f3)
+Stopping criterion: 0.05076796<=?-0.00529163 + 0.01000000
+   8730:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   8800:   objval =  -7.391479640e-04   infeas =   4.888203769e-01 (0)
+   8886:   objval =   2.946919810e-03   infeas =   0.000000000e+00 (0)
+*  8886:   objval =   2.946919810e-03   infeas =   0.000000000e+00 (0)
+*  9000:   objval =  -2.351834431e-03   infeas =   0.000000000e+00 (0)
+*  9064:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 22
+Margin: 0.00000000
+Margin Error: 0.49576670
+itrator : 23
+0.06435770 : 0 * (3) 1 (0f3) 2 (0f1) 1 (1f1)
+Stopping criterion: 0.06435770<=?-0.00529163 + 0.01000000
+   9064:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   9200:   objval =  -7.055503292e-04   infeas =   6.528246760e-02 (0)
+   9208:   objval =  -4.087168574e-04   infeas =   0.000000000e+00 (0)
+*  9208:   objval =  -4.087168574e-04   infeas =   0.000000000e+00 (0)
+*  9311:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 23
+Margin: -0.00000000
+Margin Error: 0.50141110
+itrator : 24
+0.08766855 : 0 * (1) 2 (0f2) 1 (0f1)
+Stopping criterion: 0.08766855<=?-0.00529163 + 0.01000000
+   9311:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   9400:   objval =  -2.057855127e-03   infeas =   5.066200034e-01 (0)
+   9484:   objval =   9.130651320e-04   infeas =   3.615555492e-17 (0)
+*  9484:   objval =   9.130651320e-04   infeas =   3.361026735e-18 (0)
+*  9600:   objval =  -4.703668862e-03   infeas =   1.550951208e-16 (0)
+*  9616:   objval =  -5.291627469e-03   infeas =   3.751339517e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 24
+Margin: 0.00000000
+Margin Error: 0.47389464
+itrator : 25
+0.02347915 : 0 * (2) 2 (0f3) 1 (1f2)
+Stopping criterion: 0.02347915<=?-0.00529163 + 0.01000000
+   9616:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   9678:   objval =  -3.233464511e-03   infeas =   1.507365985e-17 (0)
+*  9678:   objval =  -3.233464511e-03   infeas =   4.336808690e-19 (0)
+*  9723:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 25
+Margin: 0.00000000
+Margin Error: 0.50023518
+itrator : 26
+-0.02772727 : 0 * (1) 2 (0f1) 1 (0f4) 1 (1f1)
+Stopping criterion: 0.02772727<=?-0.00529163 + 0.01000000
+   9723:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   9800:   objval =  -3.761083251e-03   infeas =   1.979210918e-01 (0)
+   9821:   objval =  -3.478939988e-03   infeas =   1.805969282e-17 (0)
+*  9821:   objval =  -3.478939988e-03   infeas =   5.963111949e-19 (0)
+*  9868:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 26
+Margin: 0.00000000
+Margin Error: 0.47412982
+itrator : 27
+-0.03299131 : 0 * (3) 1 (0f3)
+Stopping criterion: 0.03299131<=?-0.00529163 + 0.01000000
+   9868:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+   9961:   objval =  -3.353541688e-03   infeas =   2.832076411e-17 (0)
+*  9961:   objval =  -3.353541688e-03   infeas =   1.084202172e-18 (0)
+* 10000:   objval =  -4.703668862e-03   infeas =   1.053915783e-17 (0)
+* 10011:   objval =  -5.291627469e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 27
+Margin: 0.00000000
+Margin Error: 0.46825024
+itrator : 28
+0.02522062 : 0 * (1) 1 (0f3)
+Stopping criterion: 0.02522062<=?-0.00529163 + 0.01000000
+  10011:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+  10088:   objval =  -3.177557897e-03   infeas =   0.000000000e+00 (0)
+* 10088:   objval =  -3.177557897e-03   infeas =   0.000000000e+00 (0)
+* 10150:   objval =  -5.291627469e-03   infeas =   2.556711255e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 28
+Margin: -0.00000000
+Margin Error: 0.51152399
+itrator : 29
+-0.01719106 : 0 * (1) 1 (0f8)
+Stopping criterion: 0.01719106<=?-0.00529163 + 0.01000000
+  10150:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+  10193:   objval =  -4.309041663e-03   infeas =   2.025402526e-16 (0)
+* 10193:   objval =  -4.309041663e-03   infeas =   4.553649124e-18 (0)
+* 10200:   objval =  -4.507590575e-03   infeas =   3.794707604e-18 (0)
+* 10229:   objval =  -5.291627469e-03   infeas =   6.462692377e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 29
+Margin: 0.00000000
+Margin Error: 0.49952963
+itrator : 30
+-0.01705080 : 0 * (1) 2 (0f6) 1 (0f1)
+Stopping criterion: 0.01705080<=?-0.00529163 + 0.01000000
+  10229:   objval =  -5.291627469e-03   infeas =   1.000000000e+00 (0)
+  10325:   objval =  -3.533984153e-03   infeas =   0.000000000e+00 (0)
+* 10325:   objval =  -3.533984153e-03   infeas =   0.000000000e+00 (0)
+* 10347:   objval =  -4.115710254e-03   infeas =   4.336808690e-19 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 30
+Margin: 0.00000000
+Margin Error: 0.49529633
+itrator : 31
+-0.01587488 : 0 * (2) 1 (0f3) 1 (1f1)
+Stopping criterion: 0.01587488<=?-0.00411571 + 0.01000000
+  10347:   objval =  -4.115710254e-03   infeas =   1.000000000e+00 (0)
+  10400:   objval =  -3.447238395e-03   infeas =   1.002649709e-01 (0)
+  10403:   objval =  -3.321966134e-03   infeas =   0.000000000e+00 (0)
+* 10403:   objval =  -3.321966134e-03   infeas =   0.000000000e+00 (0)
+* 10438:   objval =  -4.115710254e-03   infeas =   3.569860426e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 31
+Margin: 0.00000000
+Margin Error: 0.49317968
+itrator : 32
+-0.01544403 : 0 * (1) 1 (0f6) 1 (1f1)
+Stopping criterion: 0.01544403<=?-0.00411571 + 0.01000000
+  10438:   objval =  -4.115710254e-03   infeas =   1.000000000e+00 (0)
+  10486:   objval =  -3.069746135e-03   infeas =   0.000000000e+00 (0)
+* 10486:   objval =  -3.069746135e-03   infeas =   0.000000000e+00 (0)
+* 10527:   objval =  -4.115710254e-03   infeas =   1.570956624e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 32
+Margin: 0.00000000
+Margin Error: 0.46213547
+itrator : 33
+-0.01469897 : 0 * (2) 1 (0f6) 1 (1f1)
+Stopping criterion: 0.01469897<=?-0.00411571 + 0.01000000
+  10527:   objval =  -4.115710254e-03   infeas =   1.000000000e+00 (0)
+  10600:   objval =  -1.874041816e-03   infeas =   7.205119530e-02 (0)
+  10608:   objval =  -1.712368705e-03   infeas =   0.000000000e+00 (0)
+* 10608:   objval =  -1.712368705e-03   infeas =   0.000000000e+00 (0)
+* 10689:   objval =  -3.527751646e-03   infeas =   5.421010862e-19 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 33
+Margin: 0.00000000
+Margin Error: 0.49858890
+itrator : 34
+-0.01374623 : 0 * (6) 1 (0f6)
+Stopping criterion: 0.01374623<=?-0.00352775 + 0.01000000
+  10689:   objval =  -3.527751646e-03   infeas =   1.000000000e+00 (0)
+  10756:   objval =  -2.204844779e-03   infeas =   0.000000000e+00 (0)
+* 10756:   objval =  -2.204844779e-03   infeas =   0.000000000e+00 (0)
+* 10800:   objval =  -2.965637373e-03   infeas =   0.000000000e+00 (0)
+* 10833:   objval =  -3.527751646e-03   infeas =   1.828594087e-16 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 34
+Margin: -0.00000000
+Margin Error: 0.49694262
+itrator : 35
+0.02034337 : 0 * (1) 1 (0f3) 1 (1f2) 1 (0f1) 1 (3f1)
+Stopping criterion: 0.02034337<=?-0.00352775 + 0.01000000
+  10833:   objval =  -3.527751646e-03   infeas =   1.000000000e+00 (0)
+  10925:   objval =  -2.120381427e-03   infeas =   3.449572405e-15 (0)
+* 10925:   objval =  -2.120381427e-03   infeas =   8.234515500e-17 (0)
+* 11000:   objval =  -3.527751646e-03   infeas =   3.491176488e-17 (0)
+* 11002:   objval =  -3.527751646e-03   infeas =   8.022480052e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 35
+Margin: 0.00000000
+Margin Error: 0.49529633
+itrator : 36
+-0.00940734 : 0 * (2) 2 (0f7) 1 (1f1)
+Stopping criterion: 0.00940734<=?-0.00352775 + 0.01000000
+  11002:   objval =  -3.527751646e-03   infeas =   1.000000000e+00 (0)
+  11055:   objval =  -3.255403704e-03   infeas =   0.000000000e+00 (0)
+* 11055:   objval =  -3.255403704e-03   infeas =   0.000000000e+00 (0)
+* 11084:   objval =  -3.527751646e-03   infeas =   1.843143693e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 36
+Margin: 0.00000000
+Margin Error: 0.49129821
+itrator : 37
+-0.01640974 : 0 * (2) 1 (0f6) 2 (1f2) 1 (0f1)
+Stopping criterion: 0.01640974<=?-0.00352775 + 0.01000000
+  11084:   objval =  -3.527751646e-03   infeas =   1.000000000e+00 (0)
+  11185:   objval =  -2.057855127e-03   infeas =   7.885111960e-15 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 37
+Margin: 0.00000000
+Margin Error: 0.49835372
+itrator : 38
+0.02248443 : 0 * (1) 1 (0f4) 1 (0f3)
+Stopping criterion: 0.02248443<=?-0.00205786 + 0.01000000
+  11185:   objval =  -2.057855127e-03   infeas =   1.000000000e+00 (0)
+  11200:   objval =  -1.848145180e-03   infeas =   8.164408402e-01 (0)
+  11261:   objval =  -1.108388333e-03   infeas =   0.000000000e+00 (0)
+* 11261:   objval =  -1.108388333e-03   infeas =   0.000000000e+00 (0)
+* 11301:   objval =  -2.057855127e-03   infeas =   4.896662188e-19 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 38
+Margin: 0.00000000
+Margin Error: 0.49412041
+itrator : 39
+-0.02659161 : 0 * (1) 2 (0f3) 1 (0f3)
+Stopping criterion: 0.02659161<=?-0.00205786 + 0.01000000
+  11301:   objval =  -2.057855127e-03   infeas =   1.000000000e+00 (0)
+  11384:   objval =  -1.612829132e-03   infeas =   4.078071736e-16 (0)
+* 11384:   objval =  -1.612829132e-03   infeas =   1.168345689e-17 (0)
+* 11400:   objval =  -1.689055265e-03   infeas =   9.146747322e-18 (0)
+* 11425:   objval =  -2.057855127e-03   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 39
+Margin: -0.00000000
+Margin Error: 0.46072437
+itrator : 40
+0.00885472 : 0 * (2) 1 (0f3) 2 (1f1)
+Stopping criterion: 0.00885472<=?-0.00205786 + 0.01000000
+  11425:   objval =  -2.057855127e-03   infeas =   1.000000000e+00 (0)
+  11457:   objval =  -1.648202933e-03   infeas =   0.000000000e+00 (0)
+* 11457:   objval =  -1.648202933e-03   infeas =   0.000000000e+00 (0)
+* 11486:   objval =  -2.057855127e-03   infeas =   1.897353802e-19 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 40
+Margin: 0.00000000
+Margin Error: 0.50799624
+itrator : 41
+-0.01028928 : 0 * (1) 1 (0f5)
+Stopping criterion: 0.01028928<=?-0.00205786 + 0.01000000
+  11486:   objval =  -2.057855127e-03   infeas =   1.000000000e+00 (0)
+  11513:   objval =  -1.890648130e-03   infeas =   5.268603014e-17 (0)
+* 11513:   objval =  -1.890648130e-03   infeas =   6.505213035e-19 (0)
+* 11531:   objval =  -2.057855127e-03   infeas =   4.694595407e-17 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 41
+Margin: 0.00000000
+Margin Error: 0.49365005
+itrator : 42
+-0.02977590 : 0 * (1) 2 (0f2) 1 (0f2)
+Stopping criterion: 0.02977590<=?-0.00205786 + 0.01000000
+  11531:   objval =  -2.057855127e-03   infeas =   1.000000000e+00 (0)
+  11600:   objval =  -1.290559928e-03   infeas =   9.754759596e-02 (0)
+  11605:   objval =  -1.194526471e-03   infeas =   1.321460378e-15 (0)
+* 11605:   objval =  -1.194526471e-03   infeas =   4.206704429e-17 (0)
+* 11660:   objval =  -2.057855127e-03   infeas =   1.301042607e-18 (0)
+OPTIMAL SOLUTION FOUND
+After iteration 42
+Margin: 0.00000000
+Margin Error: 0.53692380
+itrator : 43
+-0.00793744 : 0 * (2) 1 (0f14)
+Stopping criterion: 0.00793744<=?-0.00205786 + 0.01000000
+*********************************
+Convergence ! at iteration: 43
+*********************************
+last beta: 0.00205786
+search nodes: 3948
+Given options:: maxpat: 10 flownum: 100 minsup: 1 nu: 0.40000000 conv_epsilon: 0.01000000 lambda: 0.00000000 maxitr: 10000 data: ../../data/NCI1_comp.gsp
