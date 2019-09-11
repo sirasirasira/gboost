@@ -1,7 +1,8 @@
-glplib1a.o: glplib1a.c /usr/include/stdc-predef.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
- ../include/glplib.h
+glplib1a.o: glplib1a.c \
+  /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/__stddef_max_align_t.h \
+  ../include/glplib.h
 glplib1a.c :
-/usr/include/stdc-predef.h :
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h :
+/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/stddef.h :
+/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/__stddef_max_align_t.h :
 ../include/glplib.h :

@@ -87,7 +87,6 @@ void Gspan::first_tree_make(){
 }
 
 void Gspan::edge_grow(Ctree& nnode){
-
 	if(can_prune(nnode)) { return;}
 
 	if(pattern.size() == maxpat){return;}
@@ -189,7 +188,7 @@ void Gspan::CacheTree_search(){
 }
 
 void Gspan::node_search(Ctree& node){
-
+	//std::cout << "node search..." << std::endl;
 	if(can_prune(node)) { return;}
 	if(pattern.size() >= maxpat){ return;}
 	if(node.children.size() == 0){
@@ -203,16 +202,16 @@ void Gspan::node_search(Ctree& node){
 	}
 }
 
-void Gspan::can_grow_search(Ctree* node){
-	pattern = node->pat.rebuild();
+void Gspan::can_grow_search(Ctree* n){
+	pattern = n->pat.rebuild();
 	//std::cout << pattern << std::endl;
 	//edge_grow(**it);
 
-	if(fabs(opt_pat.gain) > node->max_gain ){return;}
+	if(fabs(opt_pat.gain) > n->max_gain ){return;}
 
 	PairSorter b_heap;
 	map<int,PairSorter,greater<int> > f_heap;
-	int maxtoc = scan_gspan(node->g2tracers,b_heap,f_heap);
+	int maxtoc = scan_gspan(n->g2tracers,b_heap,f_heap);
 
 	// projecting...
 	DFSCode  dcode;
@@ -228,11 +227,11 @@ void Gspan::can_grow_search(Ctree* node){
 		Ctree *node = new Ctree;
 		TNnum++;
 		nDFSCode d;
-		d.set(dcode,&node->pat);
+		d.set(dcode,&n->pat);
 		node->pat = d;
 		GraphToTracers& g2 = node->g2tracers;
 		g2 = it->second;
-		node->children.push_back(node);
+		n->children.push_back(node);
 
 		edge_grow(*node);
 		pattern.pop_back();
@@ -251,12 +250,12 @@ void Gspan::can_grow_search(Ctree* node){
 			Ctree *node = new Ctree;
 			TNnum++;
 			nDFSCode d;
-			d.set(dcode,&node->pat);
+			d.set(dcode,&n->pat);
 			node->pat = d;
 
 			GraphToTracers& g2 = node->g2tracers;
 			g2 = it2->second;
-			node->children.push_back(node);
+			n->children.push_back(node);
 
 			edge_grow(*node);
 			pattern.pop_back();
