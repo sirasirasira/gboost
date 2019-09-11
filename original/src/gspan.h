@@ -203,14 +203,14 @@ class Gspan {
   bool can_prune(Ctree&);
   void lpboost();
   void edge_grow(Ctree&);
-  //cashing
+  //caching
   
   bool first_flag;
   unsigned int TNnum;
   CRoot* croot;
   list<Ctree*> can_grow;
   void first_tree_make();
-  void CashTree_search();
+  void CacheTree_search();
   void Crun();
   void node_search(Ctree&);
   void can_grow_search();
