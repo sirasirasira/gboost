@@ -139,10 +139,12 @@ void Gspan::lpboost(){
   double margin = 0.0;
   unsigned int litr = 0; // the number of iterations
 
+/*
   // figure
   mkdir("itr", S_IRWXU);
   std::ofstream tmp ("itr/node_itr", std::ios::trunc);
   std::ofstream tmp2 ("itr/beta_itr", std::ios::trunc);
+*/
   
   //main loop
   search_vnum = 0;
@@ -158,6 +160,7 @@ void Gspan::lpboost(){
     update(opt_pat); //rewrite opt_pat
 
 	search_vnum += vnum;
+	/*
 	// output vnum of each itr
 	std::ofstream node ("itr/node_itr", std::ios::app);
 	if (! node) {
@@ -177,6 +180,7 @@ void Gspan::lpboost(){
 	beta_itr.setf(std::ios::fixed,std::ios::floatfield);
 	beta_itr.precision(12);
 	beta_itr << -beta << std::endl;
+	*/
     
     std::vector <int>     result (gnum);
     int _y;
@@ -253,6 +257,7 @@ void Gspan::lpboost(){
     std::cout << "Margin: " << margin << std::endl;
     std::cout << "Margin Error: " << margin_error << std::endl;
 
+/*
 	// output model of each itr
 	char output[256];
 	sprintf(output, "itr/model_itr%d", (itr+1));
@@ -273,6 +278,7 @@ void Gspan::lpboost(){
 		}
 		os << model.flag[r] * model.weight[r] << "\t" << model.dfs_vector[r] << std::endl;
 	}
+*/
 
   }
   std::cout << "last beta: " << -beta << std::endl;

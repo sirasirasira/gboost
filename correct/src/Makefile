@@ -4,7 +4,7 @@ NAME = gspan
 CXXFLAGS = -g -pg -O3 -Wall -Wno-deprecated
 #CXXFLAGS = -pg -O2 -Wall -Wno-deprecated
 LDFLAGS =  -lm -ldl #remove "-static" for Mac,in linux need to compile?
-TARGETS = lpboost
+TARGETS = lpboost_correct
 OBJ = gspan.o cachetree.o 
 
 all:  lpboost
@@ -17,5 +17,4 @@ lpboost: lpboost.o ${OBJ}
 
 clean:
 	rm -f ${OBJ} lpboost.o ${TARGETS} model *~
-	rm -r itr
 
