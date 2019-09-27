@@ -22,7 +22,7 @@ dvalue = {}
 ####for fname in csv_files:
 for i in range(1):
 	fname = filename
-	print(fname)
+	#print(fname)
 	with open(fname) as f:
 		for line in f:
 			itemlist = line[:-1].split('\t')

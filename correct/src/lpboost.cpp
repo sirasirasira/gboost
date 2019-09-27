@@ -150,7 +150,7 @@ void Gspan::lpboost(){
   search_vnum = 0;
   for(unsigned int itr=0;itr < max_itr;++itr){
 	vnum = 0;
-    std::cout <<"itrator : "<<itr+1<<std::endl;
+    std::cout <<"iterator: "<<itr+1<<std::endl;
     
     opt_pat.gain=0.0;//gain init
     opt_pat.size=0;
