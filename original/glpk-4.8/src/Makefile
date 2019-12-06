@@ -1,4 +1,3 @@
-# Generated automatically from Makefile.in by configure.
 # Makefile.in generated automatically by automake 1.4-p4 from Makefile.am
 
 # Copyright (C) 1994, 1995-8, 1999 Free Software Foundation, Inc.
@@ -16,6 +15,7 @@ SHELL = /bin/sh
 
 srcdir = .
 top_srcdir = ..
+
 prefix = /usr/local
 exec_prefix = ${prefix}
 
@@ -27,8 +27,8 @@ sysconfdir = ${prefix}/etc
 sharedstatedir = ${prefix}/com
 localstatedir = ${prefix}/var
 libdir = ${exec_prefix}/lib
-infodir = ${prefix}/info
-mandir = ${prefix}/man
+infodir = ${prefix}/share/info
+mandir = ${prefix}/share/man
 includedir = ${prefix}/include
 oldincludedir = /usr/include
 
@@ -40,15 +40,15 @@ pkgincludedir = $(includedir)/GLPK
 
 top_builddir = ..
 
-ACLOCAL = aclocal
+ACLOCAL = aclocal-1.13
 AUTOCONF = autoconf
-AUTOMAKE = automake
+AUTOMAKE = automake-1.13
 AUTOHEADER = autoheader
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
 INSTALL_DATA = ${INSTALL} -m 644
-INSTALL_SCRIPT = ${INSTALL_PROGRAM}
+INSTALL_SCRIPT = ${INSTALL}
 transform = s,x,x,
 
 NORMAL_INSTALL = :
@@ -58,7 +58,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 CC = gcc
-MAKEINFO = /home/sira/desktop/or_gb_cash_gt-master/glpk-4.8/missing makeinfo
+MAKEINFO = makeinfo
 PACKAGE = GLPK
 RANLIB = ranlib
 VERSION = 4.8
@@ -74,7 +74,7 @@ CONFIG_CLEAN_FILES =
 LIBRARIES =  $(lib_LIBRARIES)
 
 
-DEFS =  -DPACKAGE=\"GLPK\" -DVERSION=\"4.8\" -DHAVE_LIBM=1 -DSTDC_HEADERS=1  -I. -I$(srcdir) 
+DEFS = -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"GLPK\" -DVERSION=\"4.8\" -DHAVE_LIBM=1 -DSTDC_HEADERS=1 -I. -I$(srcdir) 
 CPPFLAGS = 
 LDFLAGS = 
 LIBS = -lm 

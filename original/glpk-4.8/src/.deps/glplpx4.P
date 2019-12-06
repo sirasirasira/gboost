@@ -1,64 +1,50 @@
-glplpx4.o: glplpx4.c \
-  /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/float.h \
-  /usr/include/float.h /usr/include/math.h /usr/include/sys/cdefs.h \
-  /usr/include/sys/_symbol_aliasing.h \
-  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
-  /usr/include/AvailabilityInternal.h /usr/include/string.h \
-  /usr/include/_types.h /usr/include/sys/_types.h \
-  /usr/include/machine/_types.h /usr/include/i386/_types.h \
-  /usr/include/sys/_pthread/_pthread_types.h \
-  /usr/include/sys/_types/_size_t.h /usr/include/sys/_types/_null.h \
-  /usr/include/sys/_types/_rsize_t.h /usr/include/machine/types.h \
-  /usr/include/i386/types.h /usr/include/sys/_types/_int8_t.h \
-  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
-  /usr/include/sys/_types/_int64_t.h /usr/include/sys/_types/_u_int8_t.h \
-  /usr/include/sys/_types/_u_int16_t.h \
-  /usr/include/sys/_types/_u_int32_t.h \
-  /usr/include/sys/_types/_u_int64_t.h \
-  /usr/include/sys/_types/_intptr_t.h \
-  /usr/include/sys/_types/_uintptr_t.h \
-  /usr/include/sys/_types/_errno_t.h /usr/include/sys/_types/_ssize_t.h \
-  /usr/include/strings.h /usr/include/secure/_strings.h \
-  /usr/include/secure/_common.h /usr/include/secure/_string.h \
-  ../include/glplib.h ../include/glplpx.h ../include/glpavl.h \
-  ../include/glpdmp.h ../include/glpinv.h ../include/glpluf.h \
-  ../include/glpstr.h
+glplpx4.o: glplpx4.c /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/float.h \
+ /usr/include/math.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/stdlib.h \
+ ../include/glplib.h ../include/glplpx.h ../include/glpavl.h \
+ ../include/glpdmp.h ../include/glpinv.h ../include/glpluf.h \
+ ../include/glpstr.h
 glplpx4.c :
-/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/float.h :
-/usr/include/float.h :
+/usr/include/stdc-predef.h :
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/float.h :
 /usr/include/math.h :
+/usr/include/features.h :
 /usr/include/sys/cdefs.h :
-/usr/include/sys/_symbol_aliasing.h :
-/usr/include/sys/_posix_availability.h :
-/usr/include/Availability.h :
-/usr/include/AvailabilityInternal.h :
+/usr/include/bits/wordsize.h :
+/usr/include/gnu/stubs.h :
+/usr/include/gnu/stubs-64.h :
+/usr/include/bits/huge_val.h :
+/usr/include/bits/huge_valf.h :
+/usr/include/bits/huge_vall.h :
+/usr/include/bits/inf.h :
+/usr/include/bits/nan.h :
+/usr/include/bits/mathdef.h :
+/usr/include/bits/mathcalls.h :
+/usr/include/bits/mathinline.h :
 /usr/include/string.h :
-/usr/include/_types.h :
-/usr/include/sys/_types.h :
-/usr/include/machine/_types.h :
-/usr/include/i386/_types.h :
-/usr/include/sys/_pthread/_pthread_types.h :
-/usr/include/sys/_types/_size_t.h :
-/usr/include/sys/_types/_null.h :
-/usr/include/sys/_types/_rsize_t.h :
-/usr/include/machine/types.h :
-/usr/include/i386/types.h :
-/usr/include/sys/_types/_int8_t.h :
-/usr/include/sys/_types/_int16_t.h :
-/usr/include/sys/_types/_int32_t.h :
-/usr/include/sys/_types/_int64_t.h :
-/usr/include/sys/_types/_u_int8_t.h :
-/usr/include/sys/_types/_u_int16_t.h :
-/usr/include/sys/_types/_u_int32_t.h :
-/usr/include/sys/_types/_u_int64_t.h :
-/usr/include/sys/_types/_intptr_t.h :
-/usr/include/sys/_types/_uintptr_t.h :
-/usr/include/sys/_types/_errno_t.h :
-/usr/include/sys/_types/_ssize_t.h :
-/usr/include/strings.h :
-/usr/include/secure/_strings.h :
-/usr/include/secure/_common.h :
-/usr/include/secure/_string.h :
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h :
+/usr/include/xlocale.h :
+/usr/include/bits/string.h :
+/usr/include/bits/string2.h :
+/usr/include/endian.h :
+/usr/include/bits/endian.h :
+/usr/include/bits/byteswap.h :
+/usr/include/bits/types.h :
+/usr/include/bits/typesizes.h :
+/usr/include/bits/byteswap-16.h :
+/usr/include/stdlib.h :
 ../include/glplib.h :
 ../include/glplpx.h :
 ../include/glpavl.h :

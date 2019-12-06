@@ -97,7 +97,7 @@ inline bool operator< (const DFSCode& left, const DFSCode& right){
   
   if(left.time.b != right.time.b) return left.time.b < right.time.b;
   
-  if(left.labels.x != right.labels.x) return left.labels < right.labels;
+  if(left.labels.x != right.labels.x) return left.labels.x < right.labels.x;
   if(left.labels.y != right.labels.y) return left.labels.y < right.labels.y;
   return (left.labels.z < right.labels.z);	
 }
